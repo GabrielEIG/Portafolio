@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* .fondo{
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
+} */
+
+body {
+    background-image: url("https://resources.sbcnoticias.com/sbcnoticias/2022/02/shutterstock_425278423.jpg");
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+.contentGeneral{
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+}
+
+.contenedor{
+    display: inline-block;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 3px;
+    border: 2px solid black;
+}
+
+.contenedor h1{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+.contenedor .contenedor2 .display{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.contenedor .contenedor2 .display div{
+    padding: 15px;
+    margin: 15px;
+    border-radius: 25px;
+    font-size: x-large;
+    border: 2px solid black;
+}
+
+.contentText{
+    padding: 15px;
+}
+
+
+.boton{
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.boton:hover{
+    background: #d5dee7;
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.356);
+}

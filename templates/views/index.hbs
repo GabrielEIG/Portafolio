@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/fondo.css">
+    <link rel="stylesheet" href="css/inicioStyle.css">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cormorant+SC:wght@300&family=Michroma&family=Oleo+Script+Swash+Caps&family=Permanent+Marker&family=Rubik+Dirt&family=Rubik+Distressed&family=Silkscreen&family=Taviraj:ital,wght@1,200&display=swap" rel="stylesheet">    
+    <title>Inicio</title>
+</head>
+<body>
+
+    
+        {{>fondo}}
+
+        {{>menu}}
+        
+
+
+
+
+        <div class="introduce">
+            <h1>Hi, i'm Gabriel Encarnacion</h1>
+            <div class="mySelf"><p>On this page I will be presenting a little about myself and my projects</p></div>
+        </div>
+
+
+<div class="contentTitulo">
+            <h2>Projects</h2>
+            
+       <div class="container">
+        
+        <div class="box">
+            <a href="../loteria">
+             <div class="imgBx">
+                
+                <img src="../img/lotecaTeToca.png" alt="">
+            </div>
+            <div class="content">
+                <div>
+                    <h1>Loteria Nacional</h1>
+                    <p>Generar dinamicamente valores aleatorios de forma de que no se permita que ningun valor se repita.</p>
+                </div>
+            </div>
+            </a>
+           
+        </div>
+
+        <div class="box">
+            <a href="../formulario">
+                <div class="imgBx">
+                <img src="../img/formulario.png" alt="">
+            </div>
+            <div class="content">
+                <div>
+                    <h1>Formulario</h1>
+                    <p>Formulario para agregar estudiantes, donde se le va agregando a una tabla, donde puedes editar o eliminar la fila que desea y esta ira sacando el promedio del total de los estudiantes.</p>
+                </div>
+            </div>
+            </a>
+            
+        </div>
+        <div class="box">
+            <a href="../pokeDeck">
+                <div class="imgBx">
+                <img src="../img/pokedeck.png" alt="">
+            </div>
+            <div class="content">
+                <div>
+                    <h1>API Pokemon</h1>
+                    <p>Recolectar informacion importante acerca de cada pokemon existente, que el usuario desea saber.</p>
+                </div>
+            </div>
+            </a>
+            
+        </div>
+        <div class="box">
+            <a href="../calculadora">
+                <div class="imgBx">
+                <img src="../img/calculadora.png" alt="">
+            </div>
+            <div class="content">
+                <div>
+                    <h1>Calculadora</h1>
+                    <p>Calculadora dinamica y esfinciente a la hora de resolver operaciones matematicas</p>
+                </div>
+            </div>
+        </div>
+       </div>
+            </a>
+            
+        </div>
+
+
+
+    <div class="content-herramientas">
+        <h2>Tools used to build these projects</h2>
+        <div class="herramientas">
+            <div class="lenguage">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/250px-CSS3_logo_and_wordmark.svg.png" alt="">
+            </div>
+            <div class="lenguage">
+                <img src="https://i.blogs.es/544e7d/650_1000_javascript_logo/1366_2000.png" alt="">
+            </div>
+            <div class="lenguage">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt="">
+            </div>
+            <div class="lenguage">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" alt="">
+            </div>
+        </div>
+    </div>
+       
+
+       {{>footer}}
+
+
+
+<script src="../js/menuCentral.js"></script>
+<script src="../src/node.js"></script>
+</body>
+</html>

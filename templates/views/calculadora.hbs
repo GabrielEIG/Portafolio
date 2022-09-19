@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Oleo+Script+Swash+Caps&family=Taviraj:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styleCalc.css">
+</head>
+<body>
+    
+    <div class="titulo1">
+        <h1>CALCULADORA</h1>
+    </div>
+
+    <div class="contentCalculadora">
+        <div class="calculadora">
+
+            <div class="pantallita">
+                <div class="segundo-valor"></div>
+                <div class="primer-valor"></div>
+            </div>
+            <div class="contenido">
+            <button class="col-2" onclick="pantallita.borrarTodo()">C</button>
+            <button onclick="pantallita.borrar()">&larr;</button>
+            <button class="operador" value="dividir">/</button>
+            <button class="numero 1">1</button>
+            <button class="numero 2">2</button>
+            <button class="numero 3">3</button>
+            <button class="operador" value="sumar">+</button>
+            <button class="numero 4">4</button>
+            <button class="numero 5">5</button>
+            <button class="numero 6">6</button>
+            <button class="operador" value="restar">-</button>
+            <button class="numero 7">7</button>
+            <button class="numero 8">8</button>
+            <button class="numero 9">9</button>
+            <button class="operador" value="multiplicar">*</button>
+            <button class="numero col-2 0">0</button>
+            <button class="numero">.</button>
+            <button class="operador" value="igual">=</button>
+        </div>
+        </div>
+
+    </div>
+    
+
+
+    <script src="../js/pantallitaCalc.js"></script>
+    <script src="../js/functionCalc.js"></script>
+    <script src="../js/inicioCalc.js"></script>
+</body>
+</html>
+

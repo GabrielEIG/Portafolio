@@ -1,0 +1,46 @@
+.aboutTitle{
+    position: absolute;
+    padding-left: 40px;
+    margin: 30px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+
+.intro{
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90vh;
+    padding-top: 10vh;
+}
+
+.intro .imgGabriel img{
+    margin: 15px;
+    width: 40vh;
+    border-radius: 10vh;
+    transform: rotateY(20deg);
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    transform: rotate3d(20vh);
+}
+
+.intro .informacion{
+    width: 90vh;
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: auto;
+    border-radius: 10vh;
+    font-family: 'Rubik Distressed', cursive;
+
+
+}
+
+.intro .informacion h3{
+    margin: 20px 0;
+
+}

@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+
+
+.contentGeneral{
+    color: black;
+    height: 100vh;
+}
+
+/* CONTENT OF FORM */
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    position: relative;
+    border-radius: 6px;
+}
+
+.formulario h2{
+    text-align: center;
+    border-radius: 6px;
+}
+
+.formulario input{
+    display: block;
+    margin: 5px;
+    width: 150px;
+    height: 28px;
+    border-radius: 9px;
+    font-size: large;
+
+}
+.formulario input::placeholder{
+    color: black;
+}
+
+
+
+.bt-enviar:hover{
+    background: cornflowerblue;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+
+
+/* CONTENT OF TABLE */
+.content1{
+    position: relative ;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 30px; 
+    margin: 0 25%; 
+    border-radius: 8px;
+    
+}
+
+.content1 tr,th,td{
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.table1 .cabezaT{
+    width: 30px;
+    padding: 30px;
+
+}
+
+.caja-prom h2{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    display: inline-block;
+}
+
+/* .totalPromedio{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.totalPromedio:hover{
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.39);
+    cursor: pointer;
+} */
+
+
+
+/* BOTONES EDIT Y DELETE */
+.deletBtn{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.deletBtn:hover{
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.39);
+    cursor: pointer;
+}
+
+.btnEdit{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.btnEdit:hover{
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.39);
+    cursor: pointer;
+}
+
+
+.newInput{
+    margin: 5px;
+    width: 80px;
+    height: 35px;
+    border-radius: 9px;
+    font-size: large;
+}
+
+
+
+
+
+
+
+
+/* 
+
+
+
+ body {font-family: Arial, Helvetica, sans-serif;}
+ #tabla1{background-color: #FFFF99; padding: 11px; margin: 45px auto; width: 750px;}
+ table { width: 700px; text-align: center; border-collapse: collapse; margin: 0 auto; color: #0066FF;}
+ th {background-color: #0099FF; border-bottom: 1px solid white; color: #3300FF; }
+ td {padding: 11px; background-color: #00FFFF; border-bottom: 1px solid white; color: #3300FF; border-top: 1px solid white; }
+ tr:hover td { background-color: #3300FF; color: #00FFFF; }
+ .botonForm{margin: 11px 22px; background-color: #3300FF; color: #00FFFF;}
+ .editar{color: #3300FF; cursor: pointer;}
+ #texto1{margin: 0 22px;} */
